@@ -1,0 +1,29 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="marsGradient" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#ea580c;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#c2410c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c2d12;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="marsShine" cx="35%" cy="35%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Main planet sphere -->
+  <circle cx="150" cy="150" r="130" fill="url(#marsGradient)"/>
+  
+  <!-- Surface features (craters and valleys) -->
+  <circle cx="120" cy="110" r="15" fill="#92400e" opacity="0.6"/>
+  <circle cx="180" cy="140" r="20" fill="#92400e" opacity="0.5"/>
+  <circle cx="140" cy="190" r="12" fill="#92400e" opacity="0.7"/>
+  <ellipse cx="110" cy="160" rx="25" ry="8" fill="#78350f" opacity="0.4"/>
+  
+  <!-- Polar ice caps -->
+  <ellipse cx="150" cy="40" rx="40" ry="20" fill="#f8fafc" opacity="0.7"/>
+  <ellipse cx="150" cy="260" rx="35" ry="15" fill="#e0e7ff" opacity="0.6"/>
+  
+  <!-- Shine effect -->
+  <circle cx="150" cy="150" r="130" fill="url(#marsShine)"/>
+</svg>

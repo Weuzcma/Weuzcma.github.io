@@ -1,0 +1,31 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="earthGradient" cx="35%" cy="35%">
+      <stop offset="0%" style="stop-color:#4ade80;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="earthShine" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Main planet sphere -->
+  <circle cx="150" cy="150" r="130" fill="url(#earthGradient)"/>
+  
+  <!-- Continents (simplified) -->
+  <ellipse cx="140" cy="120" rx="35" ry="45" fill="#15803d" opacity="0.8"/>
+  <ellipse cx="180" cy="160" rx="28" ry="32" fill="#15803d" opacity="0.7"/>
+  <ellipse cx="110" cy="180" rx="25" ry="30" fill="#15803d" opacity="0.75"/>
+  
+  <!-- Clouds/atmosphere -->
+  <path d="M 80 130 Q 100 120 120 130" stroke="#e0f2fe" stroke-width="4" fill="none" opacity="0.6"/>
+  <path d="M 170 100 Q 190 90 210 100" stroke="#e0f2fe" stroke-width="3" fill="none" opacity="0.5"/>
+  
+  <!-- Shine effect -->
+  <circle cx="150" cy="150" r="130" fill="url(#earthShine)"/>
+  
+  <!-- Shadow -->
+  <circle cx="150" cy="150" r="130" fill="#000000" opacity="0.1"/>
+</svg>

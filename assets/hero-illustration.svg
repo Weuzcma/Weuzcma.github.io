@@ -1,0 +1,32 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="spaceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#spaceGradient)"/>
+  
+  <!-- Spacecraft -->
+  <g transform="translate(150, 100)">
+    <!-- Main body -->
+    <ellipse cx="0" cy="0" rx="40" ry="50" fill="#38bdf8" opacity="0.8"/>
+    <!-- Cockpit -->
+    <circle cx="0" cy="-35" r="15" fill="#0ea5e9"/>
+    <!-- Wings -->
+    <polygon points="-40,10 -80,30 -40,20" fill="#8b5cf6" opacity="0.7"/>
+    <polygon points="40,10 80,30 40,20" fill="#8b5cf6" opacity="0.7"/>
+    <!-- Thrusters -->
+    <rect x="-15" y="45" width="10" height="20" fill="#fbbf24" opacity="0.9"/>
+    <rect x="5" y="45" width="10" height="20" fill="#fbbf24" opacity="0.9"/>
+  </g>
+  
+  <!-- Stars -->
+  <circle cx="80" cy="50" r="2" fill="#f8fafc" opacity="0.8"/>
+  <circle cx="450" cy="80" r="1.5" fill="#f8fafc" opacity="0.6"/>
+  <circle cx="520" cy="120" r="1" fill="#f8fafc" opacity="0.5"/>
+  <circle cx="100" cy="280" r="1.5" fill="#f8fafc" opacity="0.7"/>
+  <circle cx="480" cy="300" r="2" fill="#f8fafc" opacity="0.8"/>
+  <circle cx="250" cy="350" r="1" fill="#f8fafc" opacity="0.6"/>
+</svg>

@@ -557,3 +557,68 @@ footer p {
     box-shadow:0 0 30px rgba(77,184,255,.3);
 }
 }
+/* ===========================
+   GAME SECTION
+=========================== */
+
+.game-section{
+
+    min-height:100vh;
+
+    padding:80px 0;
+
+    background:linear-gradient(180deg,#030712,#071d38);
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+.game-title{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+.game-title h2{
+
+    font-size:3rem;
+
+    color:#4db8ff;
+
+    margin-bottom:15px;
+
+}
+
+.game-title p{
+
+    color:white;
+
+    max-width:700px;
+
+    font-size:1.2rem;
+
+    line-height:1.8;
+
+}
+
+.game-section iframe{
+
+    width:95%;
+
+    height:90vh;
+
+    border:none;
+
+    border-radius:20px;
+
+    box-shadow:0 0 40px rgba(0,180,255,.4);
+
+}

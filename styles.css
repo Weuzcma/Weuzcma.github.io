@@ -529,4 +529,31 @@ footer p {
   .facts {
     grid-template-columns: 1fr;
   }
+  .game-section{
+    padding:100px 10%;
+    text-align:center;
+    background:#081221;
+}
+
+.game-section h2{
+    font-size:2.5rem;
+    color:#4db8ff;
+    margin-bottom:20px;
+}
+
+.game-section p{
+    max-width:700px;
+    margin:0 auto 30px;
+    color:#ddd;
+    line-height:1.7;
+}
+
+.game-section iframe{
+    width:100%;
+    max-width:1000px;
+    height:650px;
+    border:none;
+    border-radius:20px;
+    box-shadow:0 0 30px rgba(77,184,255,.3);
+}
 }
